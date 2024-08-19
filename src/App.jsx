@@ -1,10 +1,12 @@
-function App() {
+import "./assets/styles/main.scss";
+import Footer from "./components/footer/Footer";
 
+function App() {
   return (
     <div>
-      Hello world!
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
